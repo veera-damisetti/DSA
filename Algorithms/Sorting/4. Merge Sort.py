@@ -7,6 +7,8 @@ Thus, our recursive case is the one where the list can be divided into further s
 
 Coming back from our base case, we start continuously merging these lists till we get a list  of our original length. 
 
+"Divide and Conquer" strategy
+
 Time complexity : O(N log(N))   - Best and worst 
 
 '''
