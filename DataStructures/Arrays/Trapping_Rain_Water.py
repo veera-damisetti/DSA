@@ -38,7 +38,7 @@ No water will be trapped.
 class Solution:
     def trappingWater(self, arr,n):
         
-        # Function to find the level of water at a poing in array
+        # Function to find the level of water at a point in array
         # which will consider left max element and right max element , and minimum of that 2 numbers will be the level 
 
         def level_finder(A,ind):
