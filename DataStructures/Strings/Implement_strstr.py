@@ -36,6 +36,7 @@ Note: You are not allowed to use inbuilt function.
 '''
 
 def strstr(s,x):
+    # Function to see if x is there from from s[i] 
     def check(ind,s,x):
         for i in range(len(x)):
             if s[ind]!=x[i]:
@@ -47,9 +48,7 @@ def strstr(s,x):
         
         
     for i in range(len(s)):
-        count =0 
         if s[i]==x[0]:
-            count +=1
             if check(i,s,x):
                 return i
     return -1
