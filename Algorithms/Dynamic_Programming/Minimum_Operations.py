@@ -57,3 +57,5 @@ class Solution:
                 return 1 + min_operations(n - 1)
 
         return min_operations(n)
+    
+
