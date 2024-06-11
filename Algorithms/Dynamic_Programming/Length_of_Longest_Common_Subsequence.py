@@ -35,7 +35,7 @@ class Solution:
     def lcs(self, n, m, str1, str2):
         
         # code here
-        dp=[[0 for i in range(n+1)] for j in range (m+1)]
+            
 
         
         for i in range(m+1):
