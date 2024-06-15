@@ -59,3 +59,4 @@ class Solution:
         return min_operations(n)
     
 
+    
