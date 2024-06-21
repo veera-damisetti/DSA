@@ -43,6 +43,3 @@ class Solution:
         Solution().mirror(root.right)
         root.left,root.right=root.right,root.left
         return root
-     
-     
-     
