@@ -2,6 +2,7 @@
 DSA Learning path
 
 Learn Data Structure and Algorithms
+
 1) Array
 2) String
 3) Divide and Conquer Algorithm
